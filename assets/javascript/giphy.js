@@ -28,7 +28,7 @@ function renderButtons(){
 	function displayGif(){
 
 		var searchTerm = $(this).attr('data-name'); 
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=dc6zaTOxFJmzC&limit=10";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 		//Hit the queryURL, take the data and display it in the div with an id of gallery
 		$('#gallery').empty();	
